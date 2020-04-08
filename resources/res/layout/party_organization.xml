@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ScrollView01" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/menu_ninepatch" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Party Name" android:ems="10" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <requestFocus/>
+        </EditText>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="How to share EXP" android:layout_below="@+id/editText1" android:layout_alignParentLeft="true"/>
+        <RadioButton android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Each Take" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true"/>
+        <RadioButton android:id="@+id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Even Share" android:layout_below="@+id/radioButton1" android:layout_alignParentLeft="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Who can pickup Items" android:layout_below="@+id/radioButton2" android:layout_alignParentLeft="true"/>
+        <RadioButton android:id="@+id/radioButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Killer" android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"/>
+        <RadioButton android:id="@+id/radioButton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Anyone" android:layout_below="@+id/radioButton3" android:layout_alignParentLeft="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Who receives Items" android:layout_below="@+id/radioButton4" android:layout_alignParentLeft="true"/>
+        <RadioButton android:id="@+id/radioButton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Picker" android:layout_below="@+id/textView3" android:layout_alignParentLeft="true"/>
+        <RadioButton android:id="@+id/radioButton6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Random" android:layout_below="@+id/radioButton5" android:layout_alignParentLeft="true"/>
+        <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Organize" android:layout_below="@+id/radioButton6" android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+</ScrollView>

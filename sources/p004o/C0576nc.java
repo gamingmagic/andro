@@ -1,0 +1,27 @@
+package p004o;
+
+/* renamed from: o.nc */
+enum C0576nc {
+    VILLAGE,
+    VILLAGE_IN,
+    FIELD,
+    DUNGEON,
+    ARENA,
+    PENALTY_FREEPKZONE,
+    NOPENALTY_FREEPKZONE,
+    EVENT_GUILDWAR,
+    AGIT,
+    DUNGEON2,
+    DUNGEON3,
+    PKSERVER,
+    PVPSERVER,
+    DENYSKILL,
+    TURBOTRACK,
+    JAIL,
+    MONSTERTRACK,
+    PORINGBATTLE,
+    AGIT_SIEGEV15,
+    BATTLEFIELD,
+    PVP_TOURNAMENT,
+    UNUSED
+}

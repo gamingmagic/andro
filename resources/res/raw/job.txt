@@ -1,0 +1,272 @@
+// Contains job IDs, names, jnames.
+// Format:
+// <id>(TAB)<name>(TAB)<spritename>(TAB)<opt_palettename>(TAB)<opt_female_spritename>(TAB)<not used>(TAB)<opt_langtype0_palname>
+// If there's no opt_palettename, spritename is used instead
+
+// Novice and 1st classes:
+0	Novice	초보자
+1	Swordsman	검사
+2	Mage	마법사
+3	Archer	궁수
+4	Acolyte	성직자
+5	Merchant	상인
+6	Thief	도둑
+
+// Second classes.
+7	Knight	기사
+8	Priest	프리스트
+9	Wizard	위저드
+10	Blacksmith	제철공
+11	Hunter	헌터
+12	Assassin	어세신
+13	Knight	페코페코_기사						// Peco Knight
+14	Crusader	크루세이더	기사			크루		// Crusader
+15	Monk	몽크
+19	Bard	바드
+16	Sage	세이지
+17	Rogue	로그
+18	Alchemist	연금술사
+20	Dancer	무희	댄서
+//21	Crusader	구페코크루세이더											// Peco crusader on Peco Peco (inactive)
+21	Crusader	신페코크루세이더	페코페코_기사			페코페코_크루				// Peco crusader on Grand Peco
+
+// 
+22	Wedding	턱시도	결혼	결혼					// Tuxedo / Wedding Veil. Note: this is the only job using opt_female_spritename... 
+
+23	Super Novice	슈퍼노비스
+
+// Extended classes 1:
+24	Gunslinger	건너
+25	Ninja	닌자
+26	Xmas	산타	초보자
+27	Summer	여름
+28	Hanbok	한복
+//29	oktoberfest							//sprite unknown 
+
+4001	High Novice	초보자
+4002	High Swordsman	검사
+4003	High Magician	마법사
+4004	High Archer	궁수
+4005	High Acolyte	성직자
+4006	High Merchant	상인
+4007	High Thief	도둑
+
+// Advanced classes: 
+4008	Lord Knight	로드나이트
+4009	High Priest	하이프리
+40091	High Priest2	하이프리스트
+4010	High Wizard	하이위저드
+4011	Mastersmith	화이트스미스
+4012	Sniper	스나이퍼
+4013	Assassin Cross	어쌔신크로스	어세신크로스
+4014	Lord Knight	로드페코	페코페코_기사			페코로나		// Peco lord knight
+
+4015	Paladin	팔라딘
+4016	Champion	챔피온
+4017	Professor	프로페서
+4018	Stalker	스토커
+4019	Biochemist	크리에이터
+4020	Minstrel	클라운	크라운
+4021	Gypsy	집시
+4022	Paladin	페코팔라딘	페코페코_기사				페코팔라			// Peco paladin
+
+// Babies (commented out: we use same sprites for babies as for big boys)
+//4023	Baby
+//4024	Baby Swordsman
+//4025	Baby Mage
+//4026	Baby Archer
+//4027	Baby Acolyte	성직자_h	성직자
+//4028	Baby Merchant
+//4029	Baby Thief
+//4030	Baby Knight	기사_h	기사
+//4031	Baby Priest	프리스트_h
+//4032	Baby Wizard	위저드_h	위저드
+//4033	Baby Blacksmith	제철공_h	제철공
+//4034	Baby Hunter	헌터_h
+//4035	Baby Assassin	어세신_h
+//4036	Baby Knight	페코페코_기사_h					// mounted
+//4037	Baby Crusader	크루세이더_h
+//4038	Baby Monk	몽크_h
+//4039	Baby Sage	세이지_h
+//4040	Baby Rogue	로그_h
+//4041	Baby Alchemist	연금술사_h
+//4042	Baby Bard	바드_h
+//4043	Baby Dancer	무희_h
+//// baby dancer with trousers	무희_여_바지 OR 무희바지_여	(which one is correct?? MOTR client contains both sprites and they are identical)
+//4044	Baby Crusader	신페코크루세이더_h				// mounted
+//4045	Super Baby
+
+// Extended classes 2: 
+
+4046	Taekwon	태권소년
+4047	Star Gladiator	권성
+4048	Star Gladiator	권성융합						// air star gladiator
+4049	Soul Linker	소울링커	태권소년			소울링커
+
+// Additional sprites.
+
+// -2	sword mercenary	검용병
+99999	game master	운영자	아크비숍
+99998	chicken in mado	운영자2					// wtf this sprite lol
+// -3	spear mercenary	창용병
+
+// 3rd classes (non-trans)
+
+4054	Rune Knight	룬나이트
+4055	Warlock	워록
+4056	Ranger	레인져	레인저
+4057	Arch Bishop	아크비숍
+4058	Mechanic	미케닉
+4059	Guillotine Cross	길로틴크로스
+
+4066	Royal Guard	가드	로얄가드
+4067	Sorcerer	소서러
+4068	Maestro	민스트럴
+4069	Wanderer	원더러
+4070	Sura	슈라
+4071	Genetic	제네릭
+4072	Shadow Chaser	쉐도우체이서
+
+// Trans 3rd classes (commented out: we get sprites from big boys)
+//4060	Rune Knight	룬나이트
+//4061	Warlock	워록
+//4062	Ranger	레인져	레인저
+//4063	Arch Bishop	아크비숍
+//4064	Mechanic	미케닉
+//4065	Guillotine Cross	길로틴크로스
+
+//4073	Royal Guard	가드	로얄가드
+//4074	Sorcerer	소서러
+//4075	Maestro	민스트럴
+//4076	Wanderer	원더러
+//4077	Sura	슈라
+//4078	Genetic	제네릭
+//4079	Shadow Chaser	쉐도우체이서
+
+// Mounted 3rd classes
+
+4080	Dragon Rune Knight	룬나이트쁘띠	룬드래곤		
+4081	Dragon Rune Knight	룬나이트쁘띠	룬드래곤			// Trans
+4082	Gryphon Royal Guard	그리폰가드	그리폰로얄
+4083	Gryphon Royal Guard	그리폰가드	그리폰로얄				// Trans
+4084	Warg Ranger	레인져늑대	울프레인저
+4085	Warg Ranger	레인져늑대	울프레인저						// Trans
+4086	Mado Mechanic	마도기어
+4087	Mado Mechanic	마도기어							// Trans
+
+// Baby 3rd classes (commented out: we use same sprites for babies and big boys)
+//4096	BABY RUNE	룬나이트
+//4097	BABY WARLOCK	워록
+//4098	BABY RANGER	레인져	울프레인저
+//4099	BABY BISHOP	아크비숍
+//4100	BABY MECHANIC	미케닉
+//4101	BABY CROSS	길로틴크로스
+//4102	BABY GUARD	가드	로얄가드
+//4103	BABY SORCERER	소서러
+//4104	BABY MINSTREL	민스트럴
+//4105	BABY WANDERER	원더러
+//4106	BABY SURA	슈라
+//4107	BABY GENETIC	제네릭
+//4108	BABY CHASER	쉐도우체이서
+
+//4109	BABY RUNE2	룬나이트쁘띠	룬드래곤
+//4110	BABY GUARD2	그리폰가드	그리폰로얄
+//4111	BABY RANGER2	레인져늑대
+//4112	BABY MECHANIC2	마도기어
+
+// ALL RIDING (mounted) palettes
+
+// rebellion pistols: rebellion_<sex>_권총
+// rebellion gatling: rebellion_<sex>_기관총
+// black mounted rune knight 룬나이트쁘띠2
+// white mounted rune knight 룬나이트쁘띠3
+// blue mounted rune knight 룬나이트쁘띠4_여
+// red mounted rune knight 룬나이트쁘띠5_여
+
+4114	FROG_NINJA	두꺼비닌자
+4115	PECO GUNNER	페코건너
+4116	PECO SWORD	페코검사
+4117	FROG LINKER	두꺼비소울링커
+4118	PIG WHITESMITH	화이트스미스멧돼지
+4119	PIG MERCHANT	상인멧돼지
+4120	PIG GENETIC	제네릭멧돼지
+4121	PIG CREATOR	크리에이터멧돼지
+4122	OSTRICH ARCHER	타조궁수
+4123	PORING STAR	권성포링
+4124	PORING NOVICE	노비스포링
+4125	SHEEP MONK	몽크알파카
+4126	SHEEP ACO	복사알파카
+4127	SHEEP SURA	슈라알파카
+4128	PORING SNOVICE	슈퍼노비스포링
+4129	SHEEP ARCB	아크비숍알파카
+4130	FOX MAGICIAN	여우마법사
+4131	FOX SAGE	여우세이지
+4132	FOX SORCERER	여우소서러
+4133	FOX WARLOCK	여우워록
+4134	FOX WIZARD	여우위저드
+4135	FOX PROFESSOR	여우프로페서
+4136	FOX HIGH WIZARD	여우하이위저드
+4137	PIG ALCHEMIST	연금술사멧돼지
+4138	PIG BLACKSMITH	제철공멧돼지
+4139	SHEEP CHAMP	챔피온알파카
+4140	DOG G CROSS	켈베로스길로틴크로스
+4141	DOG THIEF	켈베로스도둑
+4142	DOG ROGUE	켈베로스로그
+4143	DOG CHASER	켈베로스쉐도우체이서
+4144	DOG STALKER	켈베로스스토커
+4145	DOG ASSASSIN	켈베로스어쎄신
+4146	DOG ASSA X	켈베로스어쎄신크로스
+4147	OSTRICH DANCER	타조무희
+4148	OSTRICH MINSTREL	타조민스트럴
+4149	OSTRICH BARD	타조바드
+4150	OSTRICH SNIPER	타조스나이퍼
+4151	OSTRICH WANDER	타조원더러
+4152	OSTRICH GYPSY	타조짚시
+4153	OSTRICH CLOWN	타조크라운
+4154	OSTRICH HUNTER	타조헌터
+4155	PORING TAEKWON	태권소년포링		태권소녀포링				// these 2 are look the same and exist in both male and female folders, the only difference is translation, ask Gravity...
+4156	SHEEP PRIEST	프리스트알파카
+4157	SHEEP HPRIEST	하이프리스트알파카
+
+4183	PORING NOVISE H	노비스포링
+4184	PECO SWORD H	페코검사
+4185	FOX MAGICIAN H	여우마법사
+4186	OSTRICH ARCHER H	타조궁수
+4187	SHEEP ACO H	복사알파카
+4188	PIG MERCHANT H	상인멧돼지
+4189	DOG THIEF H	켈베로스도둑
+
+4190	SUPER NOVICE E	슈퍼노비스
+4191	SUPER BABY E	슈퍼노비스
+
+4192	PORING SNOVICE2	슈퍼노비스포링
+4193	PORING SNOVICE2 B	슈퍼노비스포링
+
+4197	PIG MECHANIC	미케닉멧돼지
+4198	OSTRICH RANGER	타조레인져
+4199	LION KNIGHT	사자기사
+4200	LION LORD KNIGHT	사자로드나이트
+4201	LION ROYAL GUARD	사자로얄가드
+4202	LION RUNE KNIGHT	사자룬나이트
+4203	LION CRUSADER	사자크루세이더
+4204	LION PALADIN	사자팔라딘
+
+
+
+//
+//JT_PIG_MECHANIC_B = 4205,
+//JT_OSTRICH_RANGER_B = 4206,
+//JT_LION_KNIGHT_B = 4207,
+//JT_LION_ROYAL_GUARD_B = 4208,
+//JT_LION_RUNE_KNIGHT_B = 4209,
+//JT_LION_CRUSADER_B = 4210,
+
+
+41201	PECO REBELLION	peco_rebellion
+
+4211	Kagerou	kagerou	kagerou
+4212	Oboro	oboro	oboro
+4213	FROK KAGERO	frog_kagerou
+4214	FROG OBORO	frog_oboro
+4215	Rebel	rebellion	리벨리온
+4218	Summoner	summoner

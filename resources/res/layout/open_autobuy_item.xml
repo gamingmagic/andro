@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999,999,999 Z" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="?android:attr/buttonStyleSmall"/>
+    <include android:id="@+id/include1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/button2" android:layout_alignBottom="@+id/button1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/inventory_item"/>
+    <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10000" android:layout_toLeftOf="@+id/button1" android:layout_alignParentTop="true" style="?android:attr/buttonStyleSmall"/>
+</RelativeLayout>
