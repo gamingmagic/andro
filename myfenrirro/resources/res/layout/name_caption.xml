@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="0dp" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textSize="12sp" android:textColor="@color/White" android:ellipsize="end" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Character Name (Party Name)" android:maxLines="1" android:shadowColor="@color/Black" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:layout_alignParentLeft="true"/>
-</RelativeLayout>

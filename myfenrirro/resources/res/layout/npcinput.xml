@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/menu_ninepatch" android:layout_width="match_parent" android:layout_height="match_parent">
-    <Button android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OK" android:layout_toRightOf="@+id/edit_text" android:layout_alignTop="@+id/text_view" android:layout_alignBottom="@+id/edit_text" android:layout_alignParentRight="true"/>
-    <EditText android:id="@+id/edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="10" android:selectAllOnFocus="true" android:layout_below="@+id/text_view" android:layout_alignParentLeft="true">
-        <requestFocus/>
-    </EditText>
-    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Input text:" android:layout_alignLeft="@+id/edit_text" android:layout_alignParentTop="true"/>
-</RelativeLayout>
