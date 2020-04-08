@@ -1,0 +1,94 @@
+// Base folder path
+//data: ..\ragnarok_folder\data
+data: T:\data\data
+
+/////////////////////////////////////////////////
+// GUI
+/////////////////////////////////////////////////
+skin: skin
+
+/////////////////////////////////////////////////
+// Textures
+/////////////////////////////////////////////////
+texture: texture
+texture/user_interface:	유저인터페이스
+texture/water: 워터
+//texture/user_interface/background: t%d_배경%d-%d
+texture/user_interface/background: 배경
+
+
+texture/user_interface/basic_interface: basic_interface
+texture/user_interface/card_bigpic: cardbmp
+texture/user_interface/item_bigpic: collection
+texture/user_interface/illustrations: illust
+texture/user_interface/item_and_skill: item
+texture/user_interface/minimap: map
+texture/user_interface/login_interface: login_interface
+
+
+/////////////////////////////////////////////////
+// Sprites
+/////////////////////////////////////////////////
+
+// Common
+
+// Sprite folder name
+sprite: sprite
+// male subfolder name
+sprite/male: 남
+// female subfolder name
+sprite/female: 여
+
+// sprite / ...
+
+sprite/book: book
+sprite/homun: homun
+sprite/npc: npc
+// typical robe sprite path: sprite/robe/<jrobename>/<jsex>/<jclass>_<jsex>
+sprite/robe: 로브
+sprite/monster: 몬스터
+// typical shields sprite path: sprite/shields/<jbaseclass>/<jbaseclass>_<jsex>_<jshieldname>
+sprite/shields: 방패
+// inventory item icons are located here as well
+sprite/skillicon: 아이템
+sprite/headgear: 악세사리
+sprite/unknown: 여
+sprite/player: 인간족
+sprite/effect: 이팩트
+sprite/doram: 도람족
+// typical cart sprite path: sprite/<jeffect>/<jcart_prefix><cartID><opt_jbaby_cart_postfix>
+sprite/effect/cart_prefix: 손수레
+sprite/effect/baby_cart_postfix: 베이비
+sprite/effect/damage: 숫자
+
+// sprite/player/ ...
+
+// body sprites folder.  
+// Two <sex_jstr> subfolders can be found inside. Files in each have <job_jstr>_<sex_jstr> names.
+// Also there are <job_jstr>_h_<sex_jstr> files for second classes. Their purpose is unknown.
+sprite/player/body: 몸통
+
+// head sprites folder. 
+// Two <sex_jstr> subfolders can be found inside. Files in each have <headID>_<sex_jstr> names
+sprite/player/head: 머리통
+
+// Other sprite/player/ relative folders have <job_jstr> names and contain weapon viewIDs of the respective job class.
+// Files inside these folders are of 3 types:
+// 1. Particular weapon attacks, based on weapon ItemID: 	<foldername>_<sex_jstr>_<itemID>
+// 2. Other weapon attacks, based on weapon type: 			<jjob>_<jsex>_<jweapontype>
+// 3. Weapon trails:										<jjob>_<jsex>_<jweapontype>_<jweapontrail>
+// Note that files of type 1 and 3 are optional.
+// jweapontrail substring:
+sprite/player/weapontrail: 검광
+
+/////////////////////////////////
+// Palettes
+/////////////////////////////////
+
+palette: palette
+
+// Hair palettes
+palette/hair: 머리
+// Cloth palettes
+// Cloth palette files have a format of <job_jstr>_<sex_jstr>_<palette_num>.pal
+palette/cloth: 몸

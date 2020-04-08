@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/HalfTransparentBlack" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2" android:layout_above="@+id/footer">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Available Items"/>
+            <ListView android:id="@+id/listview_all" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Selected Items"/>
+            <ListView android:id="@+id/listview_selected" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150dp" android:text="Cash: 1,000 CP" android:maxLines="1"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150dp" android:text="1,000,000,000 Z" android:maxLines="1"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ask amount" android:layout_weight="1"/>
+        <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trade" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

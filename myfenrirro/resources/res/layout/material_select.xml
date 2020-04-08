@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/menu_ninepatch" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/allmaterials" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true"/>
+    <ImageView android:id="@+id/ImageMaterial1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" android:layout_below="@+id/allmaterials" android:layout_alignParentLeft="true"/>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_toRightOf="@+id/imageView1" android:layout_alignBottom="@+id/imageView1"/>
+    <ImageView android:id="@+id/ImageMaterial2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" android:layout_toRightOf="@+id/material1" android:layout_alignBottom="@+id/material1"/>
+    <ImageView android:id="@+id/ImageMaterial3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" android:layout_toRightOf="@+id/material2" android:layout_alignBottom="@+id/material2"/>
+    <TextView android:id="@+id/material3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_toRightOf="@+id/ImageMaterial3" android:layout_alignBottom="@+id/ImageMaterial3"/>
+    <TextView android:id="@+id/material2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_toRightOf="@+id/ImageMaterial2" android:layout_alignBottom="@+id/ImageMaterial2"/>
+    <TextView android:id="@+id/material1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_toRightOf="@+id/ImageMaterial1" android:layout_alignBottom="@+id/ImageMaterial1"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select material:" android:layout_below="@+id/material1" android:layout_alignLeft="@+id/ImageMaterial1"/>
+    <ListView android:id="@+id/listView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/textView2" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/btn_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OK" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="101dp" android:src="@drawable/ic_launcher" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+</RelativeLayout>

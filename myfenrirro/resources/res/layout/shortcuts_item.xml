@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:ems="10" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <requestFocus/>
+    </EditText>
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use" android:layout_below="@+id/editText1" android:layout_alignParentLeft="true"/>
+    <Button android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Up" android:layout_toRightOf="@+id/button1" android:layout_below="@+id/editText1"/>
+    <Button android:id="@+id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Down" android:layout_toRightOf="@+id/button3" android:layout_below="@+id/editText1"/>
+    <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Del" android:layout_toRightOf="@+id/button4" android:layout_below="@+id/editText1"/>
+</RelativeLayout>

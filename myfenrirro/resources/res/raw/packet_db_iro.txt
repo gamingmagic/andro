@@ -1,0 +1,31 @@
+// Since iRO does not have valid packet version, we just apply the packet shuffle in a separate file, after packet db
+packet_ver: 1
+0x72,19,wanttoconnection,2:6:10:14:18
+0x8c,-1,globalmessage,2:4
+0x89,7,actionrequest,2:6
+0xa7,8,useitem,2:4
+0xf7,2,closekafra,0
+0x113,10,useskilltoid,2:4:6
+0x202,26,friendslistadd,2
+0x22d,5,hommenu,4
+0x2c4,26,partyinvite2,2
+0x35f,5,walktoxy,2
+0x360,6,ticksend,2
+0x361,5,changedir,2:4
+0x362,6,takeitem,2
+0x363,6,dropitem,2:4
+0x364,8,movetokafra,2:4
+0x365,8,movefromkafra,2:4
+0x366,10,useskilltopos,2:4:6:8
+0x367,90,useskilltoposinfo,2:4:6:8:10
+0x368,6,getcharnamerequest,2
+0x369,6,solvecharname,2
+0x7e4,-1,itemlistwindowselected,2:4:8
+0x802,18,bookingregreq,2:4:6
+0x811,-1,reqopenbuyingstore,2:4:8:9:89
+0x815,2,reqclosebuyingstore,0
+0x817,6,reqclickbuyingstore,2
+0x819,-1,reqtradebuyingstore,2:4:8:12
+0x835,-1,searchstoreinfo,2:4:5:9:13:14:15
+0x83c,12,searchstoreinfolistitemclick,2:6:10
+0x838,2,searchstoreinfonextpage,0

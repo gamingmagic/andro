@@ -1,0 +1,9 @@
+Hold a Hotkey button to close, move or resize it
+Double-tap and hold finger on an empty cell for continuous walk
+Tap your character and swipe down to sit and regenerate faster. 
+Ragnarok Online was released in South Korea by GRAVITY Co., Ltd in 2002. Now there are millions of Ragnarok Online players all over the world
+Volume UP/DOWN keys will switch target up/down. Magnifier button on the down right will select closest target
+Swipe on the left side of the screen to activate joystick controls
+You can use Settings button on the login screen to adjust graphics quality
+You need Job Level 10 to become one of 6 first classes: Swordsman, Magician, Archer, Acolyte, Merchant or Thief
+You can use multi-touch to rotate or zoom camera
